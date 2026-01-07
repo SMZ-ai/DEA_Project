@@ -1,0 +1,29 @@
+{
+    "olist_customers": [
+        {
+            "name": "customer_id",
+            "type": "text",
+            "description": "Key to the orders dataset. Each order has a unique customer_id."
+        },
+        {
+            "name": "customer_unique_id",
+            "type": "text",
+            "description": "Unique identifier of a customer that allows tracking across different orders."
+        },
+        {
+            "name": "customer_zip_code_prefix",
+            "type": "bigint",
+            "description": "First five digits of the customer zip code."
+        },
+        {
+            "name": "customer_city",
+            "type": "text",
+            "description": "Name of the city where the customer is located."
+        },
+        {
+            "name": "customer_state",
+            "type": "text",
+            "description": "Abbreviation of the customer's state."
+        }
+    ]
+}
