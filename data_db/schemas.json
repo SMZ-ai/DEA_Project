@@ -1,5 +1,5 @@
 {
-    "olist_customers": [
+    "olist_customers_dataset": [
         {
             "name": "customer_id",
             "type": "text",
@@ -26,4 +26,5 @@
             "description": "Abbreviation of the customer's state."
         }
     ]
+
 }
